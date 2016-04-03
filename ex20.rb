@@ -32,7 +32,7 @@ rewind(current_file)
 
 puts "Now lets print three lines:"
 
-# Assignening 
+# Assigning the line that we desire to print from the file to the variable current line. Calling the print_a_line function using the current_line variable as an argument to specify the line desired to print
 current_line = 1
 print_a_line(current_line, current_file)
 
